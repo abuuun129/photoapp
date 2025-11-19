@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #photo.urls へ
     path('', include('photo.urls')),
-    
+    #accounts.urlsへ
+    path('', include('accounts.urls'))
 ]
